@@ -1227,7 +1227,7 @@ path.stroke-thin {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
   .parallax1 {
-	background: url('../images/parallax/2.jpg') repeat fixed;
+	background: url('../images/parallax/2.jpeg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
