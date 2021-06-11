@@ -333,7 +333,7 @@ body.royal_loader {
 }
 
 .menu-back{
-	background:rgba(60,60,60,.9);
+	background:rgba(252, 252, 252, 0.9);
 }
 
 
@@ -345,7 +345,7 @@ body.royal_loader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	background:rgba(60,60,60,1);
+	background:rgba(252, 252, 252, 0.9)
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:116px;
@@ -390,14 +390,14 @@ ul.slimmenu li ul {
 
 
 .logo{
-	position:absolute;
-	width:146px;
-	height:80px;
-	z-index:10000;
-	left:10px;
-	top:10px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:146px 80px;
+	position: absolute;
+    width: 250px;
+    height: 80px;
+    z-index: 10000;
+    left: 10px;
+    top: 10px;
+    background: url(../images/logo.png) no-repeat center center;
+    background-size: 206px 110px;
 }
 
 
@@ -465,7 +465,7 @@ ul.slimmenu {
 ul.slimmenu li {
     position: relative;
     display: inline-block;
-	background:url('../images/line1.png') 0 14px no-repeat;
+	background:url('../images/line.png') 0 14px no-repeat;
 	background-size:15px 10px;
 	padding-left:20px;
 }
@@ -474,7 +474,7 @@ ul.slimmenu > li:first-child { border-left: 0 }
 ul.slimmenu > li:last-child { margin-right: 0 }
 ul.slimmenu li a {
     display: block;
-    color: #fff;
+    color: #3b3b3b;
     padding: 10px 0px;
 	cursor:pointer;
     margin: 0px 12px;
@@ -601,7 +601,7 @@ ul.slimmenu.collapsed li > ul {
 }
 .big-text { 
 	position: absolute; 
-	top: 50%;
+	top: 90%;
 	margin-top:-30px;
 	width: 100%;
 	font-family: 'Montserrat', sans-serif;
