@@ -659,17 +659,28 @@ top: 0;
 .social-top img{
 	position: absolute;
     text-transform: uppercase;
-    top: -331px;
-    left: 29%;
+    top: -260px;
+    left:37%;
     margin-left: -30px;
     -webkit-transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -ms-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
     transition: all .35s ease-in-out;
-    width: 50%;
+    width: 30%;
     background-size: 30px 16px;
     z-index: 3900;
+}
+.btn-watch button {
+	position: absolute;
+    font-family: 'OpenSans-Light-webfont';
+    color: #323232; 
+    bottom: 153px;
+    left: 43%;
+    width: 15%;
+    z-index: 3900;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .list-social li {
@@ -1239,9 +1250,43 @@ path.stroke-thin {
  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 959px) {	
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
+
+@media only screen and (max-width: 1450px){
+	.btn-watch button{
+		bottom: 30%;
+		width: 20%;
+		left: 40%;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+	.btn-watch button{
+		display: none;
+	}
+	.social-top img{
+		display: none;
+	}
+}
+@media (max-width:912px) and (min-width: 787px){
+	.btn-watch button{
+		width: 25%;
+		left: 36%;
+	}
+	.social-top img{
+		top: -59px;
+	}
+}
+
+@media (max-width:959px) and (min-width: 897px){
+	.social-top img {
+		top: -124px;
+	}
+}
+
   .parallax1 {
 	background: url('../images/parallax/2.jpeg') repeat fixed;
 	background-size: cover;
