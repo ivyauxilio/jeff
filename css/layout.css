@@ -2538,17 +2538,16 @@ iframe{
 } 
 .logos-wrap{
 	position: relative;
-	float:left;
 	display:inline-block;
 	text-align:center;
 	margin: 0 auto;
-	width: 16.666666666666666666666666666666666%;
+	/* width: 16.666666666666666666666666666666666%; */
 	overflow:hidden;
 	z-index:2;
 	cursor:pointer;
 }
 .logos-wrap img{
-	width:60%;
+	width:90%;
 	height:auto;
 	margin-left:20%;
 	margin-right:20%;
